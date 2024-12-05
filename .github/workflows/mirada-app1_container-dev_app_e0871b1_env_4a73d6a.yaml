@@ -1,5 +1,11 @@
 name: mirada-app1_container-dev_app_e0871b1_env_4a73d6a Pipeline (Skyu Generated)
 'on':
+  push:
+    paths-ignore:
+      - .github/workflows/**
+      - .trivyignore
+      - Readme.md
+      - README.md
   workflow_dispatch: {}
   repository_dispatch:
     types: pipeline_ee82ad5a-28dd-45bc-8efd-a7d898dd562e
