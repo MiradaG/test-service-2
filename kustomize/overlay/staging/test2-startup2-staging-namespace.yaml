@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: test2-startup2-staging
+  labels:
+    environmentId: env_5c941240-7dea-46ac-ba66-bd0774d7823c
+    projectId: project_760c6284-25ec-438d-bb16-072233a992ed
+    projectName: test2-startup2
+    environmentName: staging
+    organizationId: org_6de1b366-9da6-4d55-b363-f5a2c4382016
+    goldilocks.fairwinds.com/enabled: 'true'

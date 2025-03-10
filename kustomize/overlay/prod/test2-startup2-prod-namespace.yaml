@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: test2-startup2-prod
+  labels:
+    environmentId: env_9ed672d2-4882-4dfe-bae5-cb2537a9c13e
+    projectId: project_760c6284-25ec-438d-bb16-072233a992ed
+    projectName: test2-startup2
+    environmentName: prod
+    organizationId: org_6de1b366-9da6-4d55-b363-f5a2c4382016
+    goldilocks.fairwinds.com/enabled: 'true'
